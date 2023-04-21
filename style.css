@@ -1,0 +1,84 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.container a{
+  color:antiquewhite;
+  text-decoration: none;
+  
+}
+a:hover{
+  color:rgb(190, 190, 190);
+}
+
+#maincontainer{
+  background-color: #272829;
+  color: antiquewhite
+}
+
+#profile img{
+  filter: grayscale();
+  border: 8px solid #404fa5;
+}
+
+#contents{
+  min-height: 75vh;
+}
+
+.h1.text-light {
+  font-size: 36px; /* Update the font size as desired */
+}
+
+/* Update the font size for the icons */
+.social-links i {
+  font-size: 30px; /* Update the font size as desired */
+}
+
+/* Update the font size for the buttons */
+.button {
+  font-size: 24px; /* Update the font size as desired */
+}
+
+.button:hover{
+  filter: grayscale();
+  cursor: pointer;
+}
+
+/* AboutPAGE -------------------------------------------------------------------------------------- */
+
+#aboutcontainer{
+  background: #272829;
+  color: antiquewhite;
+  font-size: x-large;
+  text-align: center;
+}
+#resumeContainer,#contactcontainer,#servicescontainer,#portfoliocontainer{
+  background: #272829;
+  color: antiquewhite;
+}
+
+.form-control {
+  background-color: lightgray; /* Change this to the desired background color */
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Card  */
+.card{
+  transition: 1s;
+  background-color: antiquewhite;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
